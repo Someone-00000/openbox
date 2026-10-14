@@ -1,0 +1,8 @@
+torch>=2.2
+transformers>=4.46
+accelerate>=0.34
+huggingface_hub>=0.24
+sentencepiece
+numpy
+scikit-learn          # only needed for the archived READ-probe analysis
+bitsandbytes>=0.46.1  # only needed for NF4 4-bit hosts (27B-class on 2xT4)
